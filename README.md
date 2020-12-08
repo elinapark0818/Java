@@ -1,2 +1,2 @@
 # JavaStudy
-[1일차](Study1.md)
+[1일차](study/Day1.md)
