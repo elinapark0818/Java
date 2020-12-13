@@ -6,12 +6,7 @@ public class Practice {
         // & 연산을 통해서 첫번째 비트만 가져오는 것입니다.
         // 0b가 붙으면 2진수 / 안붙으면 8진수가 된다
         /**
-         * - 정수 리터럴 -
-         * 10진수, 8진수, 16진수, 2진수 리터럴
-         * int a = 15;
-         * int b = 015;
-         * int c = 0x15;
-         * int d = 0b0101;
+
          */
         int num = 0B00000101;
         System.out.println(num);
