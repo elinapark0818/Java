@@ -140,7 +140,7 @@ public class practiceTest {
                 break;
         }
 */
-
+/*
         int floor = 1;
         String place = "";
         switch (floor) {
@@ -158,6 +158,134 @@ public class practiceTest {
                 System.out.println();
         }
         System.out.println(floor + "층은 " + place + " 입니다.");
+*/
+//        int num = 1;
+//        num += 2;
+//        num += 3;
+//        num += 4;
+//        num += 5;
+//        num += 6;
+//        num += 7;
+//        num += 8;
+//        num += 9;
+//        num += 10;
+//
+//        System.out.println("1부터 10까지의 합은 " + num + " 입니다.");
+
+
+//        // 1~10 합 구하기
+//        int num = 1;
+//        int sum = 0;
+//
+//        while (num <=10) {
+//            sum += num;
+//            num++;
+//        }
+//        System.out.println("1부터 10까지의 합은 " + sum + " 입니다.");
+
+//        //1~50 합 구하기
+//        int num = 1;
+//        int sum = 0;
+//
+//        while (num <= 50) {
+//            sum += num;
+//            num++;
+//        }
+//        System.out.println("1부터 50까지의 합은 " + sum + " 입니다.");
+
+
+//        // do while 이용해서 1~10 합 구하기
+//        int num = 1;
+//        int sum = 0;
+//
+//        do {
+//            sum += num;
+//            num++;
+//        } while (num <= 10);
+//
+//        System.out.println("1부터 10까지의 합은 " + sum + " 입니다.");
+
+//        //안녕하세요 10번하기
+//        int i;
+//        int sum;
+//        for (i = 1, sum = 0; i <=10; i++) {
+//            sum += i;
+//        }
+//        System.out.println("1부터 10까지의 합은 " + sum + " 입니다.");
+
+
+//        for(int i = 1; i <= 10; i++) {
+//            System.out.println(i + "안녕하세요");
+//        }
+//
+//        // 구구단
+//        int dan;
+//        int times;
+//
+//        for (dan = 2; dan <= 9; dan++) {
+//            for (times = 1; times <=9; times++) {
+//                System.out.println(dan + "X" + times + "=" + dan * times);
+//            }
+//            System.out.println();
+//        }
+
+//        // 1~100 까지의 홀수의 합 구하기
+//        int total = 0;
+//        int num;
+//
+//        for (num = 1; num <= 100; num++) {
+//            if (num % 2 == 0)
+//                continue;
+//            total += num;
+//        }
+//        System.out.println("1부터 100까지의 홀수의 합은 : " + total + " 입니다.");
+
+//        // 1~100 중 3의 배수 출력하기
+//        int num;
+//
+//        for (num =1; num <= 100; num++) {
+//            if (num % 3 != 0)
+//                continue;
+//            System.out.println(num);
+//        }
+
+//        int sum = 0;
+//        int num = 0;
+//
+//        for (num = 0; sum < 100; num++) {
+//            sum += num;
+//        }
+//        System.out.println("num : " + num);
+//        System.out.println("sum : " + sum);
+
+//        // breake 예제
+//         int sum = 0;
+//         int num = 0;
+//
+//         for (num = 0; ; num++) {
+//             sum += num;
+//             if (sum >= 100)
+//                 break;
+//         }
+//        System.out.println("num : " + num);
+//        System.out.println("sum : " + sum);
+
+
+        int sum = 0;
+        int num;
+        for (num = 1; ; num++) {
+            sum += num;
+            if (sum >= 500)
+                break;
+            }
+        System.out.println(sum);
+        System.out.println(num);
+
+
+
+
+
+
 
 
     }
