@@ -212,13 +212,13 @@ public class practiceTest {
 //            sum += i;
 //        }
 //        System.out.println("1부터 10까지의 합은 " + sum + " 입니다.");
-
-
+//
+//
 //        for(int i = 1; i <= 10; i++) {
 //            System.out.println(i + "안녕하세요");
 //        }
 //
-//        // 구구단
+        // 구구단
 //        int dan;
 //        int times;
 //
@@ -271,15 +271,59 @@ public class practiceTest {
 //        System.out.println("sum : " + sum);
 
 
-        int sum = 0;
-        int num;
-        for (num = 1; ; num++) {
-            sum += num;
-            if (sum >= 500)
+//        int sum = 0;
+//        int num;
+//        for (num = 1; ; num++) {
+//            sum += num;
+//            if (sum >= 500)
+//                break;
+//            }
+//        System.out.println(sum);
+//        System.out.println(num);
+
+        // 1 operator 값이 +,-,*,/ 인 경우에 사칙 연산을 수행하는 프로그램을 if-else if문과 switch case문을 사용해 작성해 보시오.
+
+
+        int num1 = 10;
+        int num2 = 2;
+        int result = 0;
+        char operator = '+';
+
+        switch (operator) {
+            case '+' :
+                result = num1 + num2;
                 break;
-            }
-        System.out.println(sum);
-        System.out.println(num);
+            case '-' :
+                result = num1 - num2;
+                break;
+            case '*' :
+                result = num1 * num2;
+                break;
+            case '/' :
+                result = num1 / num2;
+                break;
+            default:
+                System.out.println("연산자를 잘못 입력하였습니다.");
+        }
+        System.out.println(num1 + "operator" + num2 + "=" + result);
+
+
+
+        //2 구구단을 짝수 단만 출력하도록 프로그램을 만들어 보세요. continue 를 사용해보자
+
+
+
+        //3 구구단을 단보다 곱하는 수가 작거나 같은 경우까지만 출력하는 프로그램을 만들어 보세요. break 를 사용해보자
+
+
+
+
+        //4 반복문을 사용하여 *트리를 출력하는 프로그램을 만들어보자.
+
+
+
+        //5 반복문과 조건문을 사용하여 *마름모를 출력하는 프로그램을 만들어보자.
+
 
 
 
