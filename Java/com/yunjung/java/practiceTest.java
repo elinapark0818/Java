@@ -36,6 +36,7 @@ public class practiceTest {
         System.out.println(result);
         System.out.println(!result);
 */
+
 /*        int num1 = 2;
         int num2 = 10;
 
@@ -284,28 +285,28 @@ public class practiceTest {
         // 1 operator 값이 +,-,*,/ 인 경우에 사칙 연산을 수행하는 프로그램을 if-else if문과 switch case문을 사용해 작성해 보시오.
 
 
-        int num1 = 10;
-        int num2 = 2;
-        int result = 0;
-        char operator = '+';
-
-        switch (operator) {
-            case '+' :
-                result = num1 + num2;
-                break;
-            case '-' :
-                result = num1 - num2;
-                break;
-            case '*' :
-                result = num1 * num2;
-                break;
-            case '/' :
-                result = num1 / num2;
-                break;
-            default:
-                System.out.println("연산자를 잘못 입력하였습니다.");
-        }
-        System.out.println(num1 + "operator" + num2 + "=" + result);
+//        int num1 = 10;
+//        int num2 = 2;
+//        int result = 0;
+//        char operator = '+';
+//
+//        switch (operator) {
+//            case '+' :
+//                result = num1 + num2;
+//                break;
+//            case '-' :
+//                result = num1 - num2;
+//                break;
+//            case '*' :
+//                result = num1 * num2;
+//                break;
+//            case '/' :
+//                result = num1 / num2;
+//                break;
+//            default:
+//                System.out.println("연산자를 잘못 입력하였습니다.");
+//        }
+//        System.out.println(num1 + "operator" + num2 + "=" + result);
 
 
 
